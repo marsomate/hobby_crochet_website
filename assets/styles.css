@@ -1,8 +1,59 @@
-#third-container {
+body {
+    background-image: url('../assets/img/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    /* Optional, to cover the entire viewport */
+}
+
+p,
+h1 {
+    font-family: 'Comic Neue', cursive;
+}
+
+#first-container {
     margin: auto;
-    padding: 300px;
+    padding: 1% 0% 1%;
+    text-align: center;
+    background-color: #e4b071;
+}
+
+#second-container {
+    margin: auto;
+    background-color: #F6FDC3;
+}
+
+#third-container {
+    margin: 30% auto 30%;
+}
+
+#fourth-container {
+    margin: auto;
+    text-align: center;
+    background-color: #FF8080;
+    padding: 5% 0% 10%;
+}
+
+.title {
+    color: #fcf0e1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 0% 1% 0%;
 }
 
 .intro-img {
-    width: 400px;
+    width: 80%;
+    padding: 10% 5% 10%;
+    /* Optional, to ensure proper alignment */
+}
+
+.logo-picture {
+    width: 100px;
+    position: inline;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
