@@ -14,12 +14,12 @@ h1 {
     margin: auto;
     padding: 1% 0% 1%;
     text-align: center;
-    background-color: #e4b071;
+    background: radial-gradient(circle, #da7f10, #e4b071);
+
 }
 
 #second-container {
     margin: auto;
-    background-color: #F6FDC3;
 }
 
 #third-container {
@@ -37,6 +37,16 @@ h1 {
     color: #fcf0e1;
     font-family: 'Dancing Script', cursive;
     font-size: 5em;
+}
+
+.navbar-icon {
+    width: 40px;
+    margin: 0;
+
+}
+
+.intro-header {
+    text-align: center;
 }
 
 .logo {
