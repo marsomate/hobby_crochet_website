@@ -8,6 +8,7 @@ body {
 p,
 h1 {
     font-family: 'Comic Neue', cursive;
+    color: wheat;
 }
 
 #first-container {
@@ -29,7 +30,8 @@ h1 {
 #fourth-container {
     margin: auto;
     text-align: center;
-    background-color: #FF8080;
+    background: linear-gradient(to top, #FF8080, rgb(255, 128, 128, 0.5));
+
     padding: 5% 0% 10%;
 }
 
@@ -37,6 +39,12 @@ h1 {
     color: #fcf0e1;
     font-family: 'Dancing Script', cursive;
     font-size: 5em;
+}
+
+.navbar-title {
+    color: #fcf0e1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
 }
 
 .navbar-icon {
@@ -47,6 +55,8 @@ h1 {
 
 .intro-header {
     text-align: center;
+    color: #d17e18;
+    padding-top: 3%;
 }
 
 .logo {
@@ -66,4 +76,37 @@ h1 {
     border-radius: 10px;
     margin-left: 1%;
     margin-right: 1%;
+}
+
+.custom-table {
+    background: linear-gradient(to bottom, #d7a76d, rgb(154, 126, 91, 0.5));
+    /* Lineáris átmenet a kék (#3498db) és sötétkék (#273c75) között */
+}
+
+#carouselExampleIndicators {
+    height: 60vh;
+    /* A képernyőmagasság 40%-a */
+}
+
+#carouselExampleIndicators .carousel-inner {
+    height: 100%;
+    /* A Carousel tartalmának 100%-os magasság beállítása */
+}
+
+#carouselExampleIndicators .carousel-item {
+    height: 100%;
+    /* A Carousel dia elemek 100%-os magasság beállítása */
+    position: relative;
+    /* A pozíció beállítása az ::before pszeudo elemhez */
+}
+
+#carouselExampleIndicators .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    /* A kattintások áteresztése az áttetsző rétegen */
 }
