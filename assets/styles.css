@@ -110,3 +110,8 @@ h1 {
     pointer-events: none;
     /* A kattintások áteresztése az áttetsző rétegen */
 }
+
+.language-select {
+    font-family: 'Comic Neue', cursive;
+    color: wheat;
+}
