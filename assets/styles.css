@@ -115,3 +115,16 @@ h1 {
     font-family: 'Comic Neue', cursive;
     color: wheat;
 }
+
+#language-select {
+    height: 25px;
+    padding: 0%;
+    margin: 10px;
+    border-radius: 20px;
+    /* 10 pixel sugarú lekerekítés */
+    background-color: rgb(250, 95, 95);
+}
+
+option {
+    padding: 30px;
+}
